@@ -13,7 +13,7 @@ Steps to follow
 
      git clone ..
      
-2). Make sure to do the desired changes for the variables
+2). Make sure to do the desired changes for the variables (Specially current_public_ip with current public IP address of yours)
 
 3). Terraform commands to run
    
