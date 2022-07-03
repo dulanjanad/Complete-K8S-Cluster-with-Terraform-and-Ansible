@@ -2,7 +2,7 @@ cidr = "10.0.0.0/16"
 
 vpc_name = "Kubernetes"
 
-current_public_ip = "112.134.149.149/32"
+current_public_ip = "112.134.144.103/32"
 
 worker_nodes_count = 2
 

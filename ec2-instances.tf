@@ -27,11 +27,16 @@ resource "aws_instance" "control_node" {
     "Name"        = "control-node.example.com"
     "Environment" = "Dev"
   }
+}
 
+resource "null_resource" "provisioner" {
+
+  depends_on = [
+    aws_instance.control_node
+  ]
   provisioner "file" {
     source      = "inventory"
     destination = "/home/ubuntu/inventory"
-
     connection {
       type        = "ssh"
       user        = "ubuntu"
@@ -76,7 +81,6 @@ resource "aws_instance" "control_node" {
     }
 
   }
-
 }
 
 resource "aws_key_pair" "deployer" {
