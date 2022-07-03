@@ -1,0 +1,7 @@
+[controlplane]
+localhost
+
+[workernodes]
+%{ for addr in ip_addrs ~}
+${addr}
+%{ endfor ~}
