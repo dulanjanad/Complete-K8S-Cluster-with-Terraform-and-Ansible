@@ -1,5 +1,5 @@
 # Complete K8S Cluster with Terraform and Ansible
- Automated approach to create a Kubernetes cluster with use of Terraform and Ansible
+ An automated approach to create a Kubernetes cluster on AWS with use of Terraform and Ansible.
 
 This will provision a Kubernetes cluster on AWS with the control node and two worker nodes. Solution has been done using Terraform and Ansible.
 
