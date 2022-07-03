@@ -26,3 +26,8 @@ Steps to follow
  Well that's really it, now sit and wait. Cluster will be ready within 5-6 mins. :wink:
      
 > :warning: **Warning:** This provsions a t3.medium ec2 instance as control-plane and a NAT Gateway within the VPC. Even if you are using a AWS free-tier still costs will be included.
+
+
+#### Overview of the resources after deployed
+
+![This is an image](Diagrams/Overview.png)
